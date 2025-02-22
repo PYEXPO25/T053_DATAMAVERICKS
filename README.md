@@ -52,10 +52,9 @@ Outcome: Lower electricity bills, reduced energy waste, and a smarter, eco-frien
 
 The technologies and tools used in the project:
 
-- *Frontend:* HTML, CSS, JavaScript, ReactJS
-- *Backend:* Django
-- *Database:* MySQL
-- *Other Tools:* Docker, Git
+- *Frontend:* Streamlit
+- *Backend:* Streamlit
+- *Cloud database:* Thingspeak
 
 ---
 
@@ -76,7 +75,7 @@ Follow these steps to clone and run the application locally.
 
 1. Navigate to the project directory:
    bash
-   cd repository-name
+   cd 
    
 2. Create a virtual environment:
    bash
@@ -104,9 +103,9 @@ Follow these steps to clone and run the application locally.
 
 ## Start the Application
 
-1. Run the Flask application:
+1. Run the streamlit web application:
    bash
-   flask run
+   streamlit run app.py
    
 2. Open your browser and navigate to:
    
